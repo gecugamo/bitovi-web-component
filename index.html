@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <bus-tracker-component></bus-tracker-component>
+
+  <template id="route-template">
+    <li class="route">
+      <button type="button">
+        <span class="route-number"></span>
+        <span class="route-name"></span>
+        <span class="check">✔</span>
+      </button>
+    </li>
+  </template>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7POAQA-i16Vws48h4yRFVGBZzIExOAJI"></script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
